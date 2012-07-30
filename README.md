@@ -14,7 +14,7 @@ This lets you have computed properties in Backbone.
 			lastName: "Smith",
 
 			fullName: function(){
-					return this.get("John") + this.get("Smith");
+					return this.get("firstName") + this.get("lastName");
 			}
 		}
 	});
